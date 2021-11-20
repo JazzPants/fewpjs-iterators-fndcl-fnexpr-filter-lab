@@ -47,3 +47,26 @@ console.log(findMatching(drivers, "Sammy"));
 console.log(fuzzyMatch(drivers, "S"));
 
 console.log(matchName(driversObj, "Bobby"))
+
+
+//LAB SOLUTION
+// function findMatching(source, sought) {
+//     return source.filter( possibleMatch =>
+//       possibleMatch.toLowerCase() === sought.toLowerCase()
+//     )
+//   }
+  
+//   function fuzzyMatch(source, testString) {
+//     return source.filter( possibleMatch =>
+//       possibleMatch.toLowerCase().indexOf(testString.toLowerCase()) === 0 
+//     )
+//   }
+//   ////e.g. checking for first letter regardless of lowercase or uppercase
+//   //possibleMatch.toLowerCase() | e.g. Jason -> jason
+//   //indexOf(testString.toLowerCase()) | J -> j
+//   //
+
+
+//   function matchName(source, soughtName) {
+//     return source.filter( record => record.name === soughtName)
+//   }
